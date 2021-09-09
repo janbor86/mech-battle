@@ -1,2 +1,3 @@
-rootProject.name = 'mech-battle'
+rootProject.name = 'mech-battle-root'
+include 'mech-battle-core'
 

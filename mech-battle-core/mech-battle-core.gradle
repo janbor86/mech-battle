@@ -1,0 +1,14 @@
+plugins {
+    id 'java'
+}
+
+group 'net.gbene'
+version '0.1-ALPHA'
+
+repositories {
+    mavenCentral()
+}
+
+test {
+    useJUnitPlatform()
+}
