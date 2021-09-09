@@ -1,0 +1,33 @@
+mech:
+  parts:
+    torso types:
+      - description: >
+          The 'mini' is for speed and low target surface.
+          It is ideal for hit-and-run tactics.
+        name: Mini
+        target surface: 5
+        modules: 5
+        hp: 20
+        armor: 5
+        weight: 3
+      - description: >
+          Atlas is the product of Boston Dynamics.
+          It's a good all around hull for battle.
+        name: Atlas
+        target surface: 7
+        modules: 6
+        hp: 30
+        armor: 10
+        weight: 4
+      - description: >
+          The Rook is big and sturdy, easy target at close range.
+          But you are in trouble when he is at close range.
+        name: Rook
+        target surface: 9
+        modules: 6
+        hp: 40
+        armor: 20
+        weight: 5
+
+
+
