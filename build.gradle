@@ -1,5 +1,5 @@
 plugins {
-    id 'java'
+    id 'idea'
 }
 
 group 'net.gbene'
@@ -7,13 +7,4 @@ version '0.1-ALPHA'
 
 repositories {
     mavenCentral()
-}
-
-dependencies {
-    testImplementation 'org.junit.jupiter:junit-jupiter-api:5.+'
-    testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.+'
-}
-
-test {
-    useJUnitPlatform()
 }
