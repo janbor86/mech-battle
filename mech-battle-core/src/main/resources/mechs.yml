@@ -2,14 +2,15 @@ mech:
   parts:
     torso types:
       - description: >
-          The 'mini' is for speed and low target surface.
+          The Hornet is for speed and low target surface.
           It is ideal for hit-and-run tactics.
-        name: Mini
+        name: Hornet
         target surface: 5
         modules: 5
         hp: 20
         armor: 5
         weight: 3
+        heat capacity: 25
       - description: >
           Atlas is the product of Boston Dynamics.
           It's a good all around hull for battle.
@@ -19,6 +20,7 @@ mech:
         hp: 30
         armor: 10
         weight: 4
+        heat capacity: 40
       - description: >
           The Rook is big and sturdy, easy target at close range.
           But you are in trouble when he is at close range.
@@ -28,6 +30,41 @@ mech:
         hp: 40
         armor: 20
         weight: 5
+        heat capacity: 60
+    leg parts:
+      - description: >
+          The classic anthropomorphic experience.
+          Amazingly agile construction.
+        name: 2Legs
+        target surface: 5
+        modules: 4
+        power: 6
+        max speed: 3
+        hp: 12
+        armor: 4
+        weight: 2
+        heat capacity: 15
+        accuracy: +1
+        defense: +1
+      - description: >
+          Its like a big tank without the turret part.
+          Armored and fast, but needs juice for it.
+        name: Crawler
+        target surface: 4
+        modules: 3
+        power: 4
+        max speed: 4
+        hp: 15
+        armor: 10
+        weight: 4
+        heat capacity: 25
+
+
+
+
+
+
+
 
 
 
